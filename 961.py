@@ -1,3 +1,8 @@
+"""
+Solution for Leet Code 961.
+"""
+
+
 class Solution:
     def repeatedNTimes(A):
         temp = {}

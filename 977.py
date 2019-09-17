@@ -1,3 +1,8 @@
+"""
+Solution for Leet Code 977.
+"""
+
+
 class Solution:
     def sortedSquares(A):
         return sorted(x*x for x in A)

@@ -1,3 +1,8 @@
+"""
+Solution for Leet Code 905.
+"""
+
+
 class Solution:
     def sortArrayByParity(A):
         return sorted(A, key = lambda x : x % 2)
