@@ -1,6 +1,3 @@
-from cmath import sqrt
-
-
 class Solution:
     def numSquares(self, n: int) -> int:
         while n % 4 == 0:
