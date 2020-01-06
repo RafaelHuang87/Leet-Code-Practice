@@ -1,5 +1,5 @@
 class Solution:
-    def removeInvalidParentheses(self, s: str) -> List[str]:
+    def removeInvalidParentheses(self, s: str) -> [str]:
         def isValid(s):
             count = 0
             for char in s:
@@ -36,3 +36,6 @@ class Solution:
         self.ans = []
         dfs(s, 0, left, right)
         return self.ans
+
+s = Solution()
+print(s.removeInvalidParentheses(')())('))
